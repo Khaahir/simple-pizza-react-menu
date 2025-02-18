@@ -1,0 +1,40 @@
+.main{
+  display: flex;
+border: solid;
+height: 20rem;
+flex-direction: column;
+}
+
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pizza-title{
+  text-align: center;
+}
+.pizzas{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  
+}
+
+.sold-out{
+  filter: grayscale(100%);
+  }
+
+  .Order-btn{
+    width: 6rem;
+    height: 4rem;
+    background-color: yellow;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12)
+     0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     
+  }
